@@ -2,6 +2,7 @@ html, body {
     min-height: 100vh;
     margin: 0;
     font-size: 10px;
+    background-color: #99d8f5de;
 }
 .overlay{
     display: flex;
