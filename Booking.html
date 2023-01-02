@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Emil</title>
+    <script src="https://kit.fontawesome.com/4b941c07e7.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Assets/Css/Style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="topnav">
+            <a  href="Index.html">Forside</a>
+            <a href="Kontakt.html">Kontakt os</a>
+            <a href="Om.html">Om os</a>
+            <a class="active" href="Booking.html">Booking af Lokale</a>
+            <a href="Eventside.html"> Event </a>
+
+        </nav>
+    </header>
+
+    <main>
+        <form action="reservation.php" method="post">
+            <div class="elem-group">
+              <label for="name">Navn</label>
+              <input type="text" id="name" name="visitor_name" placeholder="Navn" pattern=[A-Z\sa-z]{3,20} required>
+            </div>
+            <div class="elem-group">
+              <label for="email">Din E-mail</label>
+              <input type="email" id="email" name="visitor_email" placeholder="Email" required>
+            </div>
+            <div class="elem-group">
+              <label for="phone">Din Tlf.</label>
+              <input type="tel" id="phone" name="visitor_phone" placeholder="Tlf." pattern=(\d{3})-?\s?(\d{3})-?\s?(\d{4}) required>
+            </div>
+            <hr>
+            <div class="elem-group inlined">
+              <label for="checkin-date">Check-in Date</label>
+              <input type="date" id="checkin-date" name="checkin" required>
+            </div>
+              </select>
+            </div>
+            <button type="submit">Book lokale</button>
+          </form>
+    </main>
+</body>
+
+</html>
