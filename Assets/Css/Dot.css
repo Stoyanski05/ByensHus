@@ -1,7 +1,12 @@
-.dot {
-    height: 70px;
-    width: 70px;
-    background-color: #ffffff;
+.dot{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
     border-radius: 50%;
-    display: inline-block;
+    display: block;
+}
+.post{
+    position: absolute;
+    left: 30px;
+    top: 250px;    
 }

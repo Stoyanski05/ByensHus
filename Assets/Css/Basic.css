@@ -9,7 +9,11 @@ html, body {
     flex-direction: row-reverse;
 }
 
-
+.overlaytwo{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
 .Bg{
     width: 15.95cm;
     position: absolute;
@@ -21,10 +25,7 @@ h1{
     display:inline-block;
     font-size: 40rem;
 }
-h3{
-    color: white;
-    font-size: 15em;
-}
+
 footer{
     display: flex;
     align-items: center;
@@ -37,5 +38,9 @@ h2{
 }
 path {
     fill: transparent;
+}
+
+main{
+    position: relative;
 }
 
